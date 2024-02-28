@@ -9,9 +9,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            
-            Nhập họ tên: <asp:TextBox ID="txtHoTen" runat="server"></asp:TextBox>
-            <asp:Button ID="btnGui" runat="server" Text="Gửi" OnClick="btnGui_Click" />
+            <div>    
+                Nhập họ tên: <asp:TextBox ID="txtHoTen" runat="server"></asp:TextBox>
+                <asp:Button ID="btnGui" runat="server" Text="Gửi" OnClick="btnGui_Click" />
+             </div>
+            Giới tính <asp:DropDownList ID="ddlGT" AutoPostBack="true" runat="server">
+                        <asp:ListItem Value="true" runat="server" Text="Nam"></asp:ListItem>
+                        <asp:ListItem Value="false" runat="server" Text="Nữ"></asp:ListItem>
+                      </asp:DropDownList>
             <br />
             <br />
             <asp:Label ID="lbChao" runat="server" Text="" ForeColor="#00ff00"></asp:Label>

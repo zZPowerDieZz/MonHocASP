@@ -42,6 +42,15 @@ namespace DuAnLamQuen
         protected global::System.Web.UI.WebControls.TextBox txtSo1;
 
         /// <summary>
+        /// rfvSo1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rfvSo1;
+
+        /// <summary>
         /// txtSo2 control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace DuAnLamQuen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSo2;
+
+        /// <summary>
+        /// rfvSo2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rfvSo2;
 
         /// <summary>
         /// btnCong control.
@@ -94,5 +112,14 @@ namespace DuAnLamQuen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtKetQua;
+
+        /// <summary>
+        /// vTongHopLoi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vTongHopLoi;
     }
 }
